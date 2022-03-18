@@ -1,0 +1,14 @@
+@media (max-width: 491px) {
+    #icondarktheme {
+        padding-right: 30px;
+        margin-left: -50%;
+    }
+}
+
+@media (max-width: 1350px) {
+    #icondarktheme {
+        margin-left: -50%;
+    }
+} 
+
+
