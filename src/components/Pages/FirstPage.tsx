@@ -8,15 +8,16 @@ import { UseMediaNavBar, UseMediaText } from '../useMediaQuery';
 import '../../Styles/NavBarMobile.css';
 import { NavBarDesktop } from '../NavbarDesktop';
 import Text from 'antd/lib/typography/Text';
+import { AnimationPage } from '../AnimationPage';
 
 export const Main = () => {
   return (
 
 
       <>
+      <AnimationPage>
     
       <UseMediaNavBar />
-
 
       <Content style={{ padding: '5 30px' }}>
         <Breadcrumb style={{ margin: '2 6px 0' }}>
@@ -37,6 +38,7 @@ export const Main = () => {
 
 
       </div>
+      </AnimationPage>
     </>
 
 

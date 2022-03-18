@@ -3,11 +3,13 @@ import { Menu } from "antd";
 import React from "react"
 import { DarkTheme } from "./DarkTheme";
 import { useNavigate } from "react-router-dom";
+import { AnimationPage } from "./AnimationPage";
 export const NavBarDesktop = () => {
 
   const navigate = useNavigate();
 
   return (
+    <AnimationPage>
     <Header style={{ boxShadow: '0px 3px 10px rgba(50, 50, 50, 0.77)' }}>
       <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['5']}>
         <Menu.Item onClick={() => { navigate('/') }} key="1">nav 1</Menu.Item>
@@ -19,5 +21,6 @@ export const NavBarDesktop = () => {
           </Menu.Item>
       </Menu>
     </Header>
+    </AnimationPage>
   )
 }

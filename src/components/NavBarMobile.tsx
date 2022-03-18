@@ -5,6 +5,7 @@ import { Footer, Header } from 'antd/lib/layout/layout';
 import { DarkTheme } from './DarkTheme';
 import { UseMediaText } from './useMediaQuery';
 import { useNavigate } from 'react-router-dom';
+import { AnimationPage } from './AnimationPage';
 
 
 export const NavBarMobile = () => {
@@ -13,6 +14,7 @@ export const NavBarMobile = () => {
 
   return (
     <>
+    <AnimationPage>
       <Header style={{ boxShadow: '0px 3px 10px rgba(50, 50, 50, 0.77)' }}>
         <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']}>
           <Menu.Item onClick={() => { navigate('/') }} key="1">Nav 1</Menu.Item>
@@ -25,6 +27,7 @@ export const NavBarMobile = () => {
             </Menu.Item>
         </Menu>
       </Header>
+      </AnimationPage>
     </>
   )
 }

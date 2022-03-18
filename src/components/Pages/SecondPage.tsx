@@ -7,13 +7,15 @@ import { DarkTheme } from '../DarkTheme';
 import { UseMediaNavBar, UseMediaText } from '../useMediaQuery';
 import '../../Styles/NavBarMobile.css';
 import Text from 'antd/lib/typography/Text';
+import { AnimationPage } from '../AnimationPage';
 
 export const SecondPage = () => {
   return (
 
 
       <>
-    
+        <AnimationPage>
+          
         <UseMediaNavBar />
         
 
@@ -34,8 +36,8 @@ export const SecondPage = () => {
       </Content>
       <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer><div>
 
-
       </div>
+      </AnimationPage>
     </>
 
 
