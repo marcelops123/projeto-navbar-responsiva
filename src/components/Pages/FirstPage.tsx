@@ -34,7 +34,7 @@ export const Main = () => {
           </HStack>
         </div>
       </Content>
-      <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer><div>
+      <Footer style={{ textAlign: 'center' }}>© Marcelin</Footer><div>
 
 
       </div>
